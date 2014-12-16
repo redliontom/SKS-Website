@@ -22,6 +22,7 @@
   "homepage": "https://github.com/redliontom/SKS-Website",
   "devDependencies": {
     "express": "^4.10.6",
+    "multiparty": "^4.1.0",
     "soap": "^0.6.0"
   }
 }
