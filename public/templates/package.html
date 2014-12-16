@@ -1,37 +1,37 @@
 <h1>Package</h1>
 
 <form id="frmPackage" name="frmPackage" method="post" ng-submit="sendPackage(frmPackage.$valid)" novalidate>
-    <input id="firstname" name="Firstname" type="text" placeholder="Firstname" ng-model="package.firstname" ng-minlength="3" ng-maxlength="32" required />
+    <input id="firstname" name="Firstname" type="text" placeholder="Firstname" ng-model="firstname" ng-minlength="3" ng-maxlength="32" required />
     <span ng-show="frmPackage.Firstname.$error.minlength">Firstname is too short.</span>
     <span ng-show="frmPackage.Firstname.$error.maxlength">Firstname is too long.</span>
     <span ng-show="frmPackage.Firstname.$error.required && frmPackage.Firstname.$dirty">Firstname is required.</span>
     <br />
 
-    <input id="lastname" name="Lastname" type="text" placeholder="Lastname" ng-model="package.lastname" ng-minlength="3" ng-maxlength="32" required />
+    <input id="lastname" name="Lastname" type="text" placeholder="Lastname" ng-model="lastname" ng-minlength="3" ng-maxlength="32" required />
     <span ng-show="frmPackage.Lastname.$error.minlength">Lastname is too short.</span>
     <span ng-show="frmPackage.Lastname.$error.maxlength">Lastname is too long.</span>
     <span ng-show="frmPackage.Lastname.$error.required && frmPackage.Lastname.$dirty">Lastname is required.</span>
     <br />
 
-    <input id="street" name="Street" type="text" placeholder="Street" ng-model="package.street" ng-minlength="3" ng-maxlength="32" required />
+    <input id="street" name="Street" type="text" placeholder="Street" ng-model="street" ng-minlength="3" ng-maxlength="32" required />
     <span ng-show="frmPackage.Street.$error.minlength">Street is too short.</span>
     <span ng-show="frmPackage.Street.$error.maxlength">Street is too long.</span>
     <span ng-show="frmPackage.Street.$error.required && frmPackage.Street.$dirty">Street is required.</span>
     <br />
 
-    <input id="zp" name="PostalCode" type="text" placeholder="PostalCode" ng-model="package.plz" ng-minlength="4" ng-maxlength="6" required />
+    <input id="zp" name="PostalCode" type="text" placeholder="PostalCode" ng-model="plz" ng-minlength="4" ng-maxlength="6" required />
     <span ng-show="frmPackage.PostalCode.$error.minlength">Zip is too short.</span>
     <span ng-show="frmPackage.PostalCode.$error.maxlength">Zip is too long.</span>
     <span ng-show="frmPackage.PostalCode.$error.required && frmPackage.PostalCode.$dirty">Zip is required.</span>
     <br />
 
-    <input id="city" name="City" type="text" placeholder="City" ng-model="package.city" ng-minlength="3" ng-maxlength="32" required />
+    <input id="city" name="City" type="text" placeholder="City" ng-model="city" ng-minlength="3" ng-maxlength="32" required />
     <span ng-show="frmPackage.City.$error.minlength">City is too short.</span>
     <span ng-show="frmPackage.City.$error.maxlength">City is too long.</span>
     <span ng-show="frmPackage.City.$error.required && frmPackage.City.$dirty">City is required.</span>
     <br />
 
-    <input id="weight" name="Weight" type="number" placeholder="Weight" ng-model="package.weight" ng-minlength="1" ng-maxlength="8" required />
+    <input id="weight" name="Weight" type="number" placeholder="Weight" ng-model="weight" ng-minlength="1" ng-maxlength="8" required />
     <span ng-show="frmPackage.Weight.$error.minlength">Weight is too short.</span>
     <span ng-show="frmPackage.Weight.$error.maxlength">Weight is too long.</span>
     <span ng-show="frmPackage.Weight.$error.required && frmPackage.Weight.$dirty">Weight is required.</span>

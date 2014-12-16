@@ -5,8 +5,9 @@ angular.module('sksApp').controller('PackageCtrl', function($scope, $http){
     $scope.sendPackage = function () {
         if ($scope.frmPackage.$valid) {
 
-            var data = {Firstname : $scope.Firstname, Lastname : $scope.Lastname, Street : $scope.Street, PostalCode : $scope.PostalCode,
-                City : $scope.City, Weight : $scope.Weight};
+            var data = {Firstname : $scope.firstname, Lastname : $scope.lastname, Street : $scope.street, PostalCode : $scope.plz,
+                City : $scope.city, Weight : $scope.weight};
+            console.log(data);
             $http.post('/Package', data)
                 .success(function (data) {
                     console.log('success');
