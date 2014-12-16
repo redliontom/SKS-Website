@@ -68,8 +68,8 @@ module.exports = function (app) {
             response.sendStatus(405);
         })
         .post(multiMiddle, function (request, response) {
-            console.log(request.body);
-            require("./service/warehouse").post(request.body, function (error, result) {
+            console.log(request.files);
+            require("./service/warehouse").post(request.files, function (error, result) {
                 delete request.files;
 
                 if (error) {
