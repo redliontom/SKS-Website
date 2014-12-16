@@ -5,7 +5,7 @@ var express = require('express');
 var app = express();
 
 // Routing
-require("routing")(app);
+require("./routing")(app);
 
 // Start server
 app.listen(8080);
