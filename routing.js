@@ -9,7 +9,7 @@ module.exports = function (app) {
                     console.error(error);
                     response.send(500);
                 } else {
-                    response.send(200);
+                    response.send(result);
                 }
             });
         });
@@ -22,9 +22,9 @@ module.exports = function (app) {
             require("./service/tracking").trackPackage(request.query, function (error, result) {
                 if (error) {
                     console.error(error);
-                    response.send(500);
+                    response.sendStatus(500);
                 } else {
-                    response.send(200);
+                    response.sendStatus(result);
                 }
             });
         });
@@ -37,9 +37,9 @@ module.exports = function (app) {
             require("./service/tracking").reportTrackingOperation(request.body, function (error, result) {
                 if (error) {
                     console.error(error);
-                    response.send(500);
+                    response.sendStatus(500);
                 } else {
-                    response.send(200);
+                    response.sendStatus(result);
                 }
             });
         });
@@ -52,9 +52,9 @@ module.exports = function (app) {
             require("./service/routing").predictRoute(request.body, function (error, result) {
                 if (error) {
                     console.error(error);
-                    response.send(500);
+                    response.sendStatus(500);
                 } else {
-                    response.send(200);
+                    response.sendStatus(result);
                 }
             });
         });
@@ -67,9 +67,9 @@ module.exports = function (app) {
             require("./service/routing").post(request.body, function (error, result) {
                 if (error) {
                     console.error(error);
-                    response.send(500);
+                    response.sendStatus(500);
                 } else {
-                    response.send(200);
+                    response.sendStatus(result);
                 }
             });
         });

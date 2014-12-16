@@ -1,5 +1,5 @@
 var soap = require("soap");
-var url = "http://blackwolf.azurewebsites.net/RoutingService.svc?wsdl";
+var url = "http://blackwolf.azurewebsites.net/RoutingService.svc?singleWsdl";
 
 exports.predictRoute = function (data, callback) {
     soap.createClient(url, function (error, client) {

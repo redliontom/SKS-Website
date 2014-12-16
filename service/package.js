@@ -1,5 +1,5 @@
 var soap = require("soap");
-var url = "http://blackwolf.azurewebsites.net/PackageService.svc?wsdl";
+var url = "http://blackwolf.azurewebsites.net/PackageService.svc?singleWsdl";
 
 /**
  * Sends client data to the webservice.
@@ -11,12 +11,6 @@ exports.submitNewPackage = function (data, callback) {
     soap.createClient(url, function (error, client) {
         if (error) {
             return callback(error);
-        }
-
-        for (var key in client) {
-            if (Object.prototype.toString.call(client[key]) === "[object Function]") {
-                console.log(key);
-            }
         }
 
         client.SubmitNewPackage(data, function (error, result) {

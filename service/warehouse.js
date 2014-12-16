@@ -1,5 +1,5 @@
 var http = require("http");
-var url = "http://blackwolf.azurewebsites.net/warehouseservice.svc";
+var url = "http://blackwolf.azurewebsites.net/WarehouseService.svc";
 
 var options = {
     hostname: url,

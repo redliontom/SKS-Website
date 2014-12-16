@@ -1,5 +1,5 @@
 var soap = require("soap");
-var url = "http://blackwolf.azurewebsites.net/TrackingService.svc?wsdl";
+var url = "http://blackwolf.azurewebsites.net/TrackingService.svc?singleWsdl";
 
 exports.trackPackage = function (data, callback) {
     soap.createClient(url, function (error, client) {
