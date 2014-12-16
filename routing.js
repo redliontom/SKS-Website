@@ -1,3 +1,6 @@
+var multiparty = require("connect-multiparty");
+var multiMiddle = multiparty();
+
 module.exports = function (app) {
     app.route("/Package")
         .get(function (request, response) {
@@ -64,9 +67,11 @@ module.exports = function (app) {
         .get(function (request, response) {
             response.sendStatus(405);
         })
-        .post(function (request, response) {
+        .post(multiMiddle, function (request, response) {
             console.log(request.body);
             require("./service/warehouse").post(request.body, function (error, result) {
+                delete request.files;
+
                 if (error) {
                     console.error(error);
                     response.sendStatus(500);
