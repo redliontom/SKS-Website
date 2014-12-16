@@ -17,6 +17,6 @@ exports.post = function (data, callback) {
         callback(error);
     });
 
-    request.write(data);
+    request.write(JSON.stringify(data));
     request.end();
 };

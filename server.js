@@ -1,10 +1,12 @@
 // Dependencies
+var bodyParser = require("body-parser");
 var express = require('express');
 
 // Express
 var app = express();
 
 app.use(express.static(__dirname + "/public"));
+app.use(bodyParser.json());
 
 // Routing
 require("./routing")(app);
