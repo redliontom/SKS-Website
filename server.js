@@ -1,3 +1,11 @@
-/**
- * Created by Tom on 16/12/14.
- */
+// Dependencies
+var express = require('express');
+
+// Express
+var app = express();
+
+
+// Start server
+app.listen(8080);
+console.log('Server is running on port 8080');
+
