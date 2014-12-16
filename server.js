@@ -6,6 +6,7 @@ var express = require('express');
 var app = express();
 
 app.use(express.static(__dirname + "/public"));
+app.use(bodyParser.raw());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 
