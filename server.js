@@ -13,8 +13,12 @@ app.use(bodyParser.json());
 require("./routing")(app);
 =======
 // Routing
+<<<<<<< HEAD
 require("routing")(app);
 >>>>>>> a9a6c2a... Routing
+=======
+require("./routing")(app);
+>>>>>>> 70abca6... bugfix
 
 // Start server
 app.listen(8080);
