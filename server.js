@@ -6,12 +6,17 @@ var express = require('express');
 var app = express();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.json());
 
 // Routing
 require("./routing")(app);
 =======
+=======
+app.use(express.static(__dirname + "/public"));
+
+>>>>>>> 95a574f... hurr
 // Routing
 <<<<<<< HEAD
 require("routing")(app);
