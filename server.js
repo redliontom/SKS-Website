@@ -5,11 +5,16 @@ var express = require('express');
 // Express
 var app = express();
 
+<<<<<<< HEAD
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.json());
 
 // Routing
 require("./routing")(app);
+=======
+// Routing
+require("routing")(app);
+>>>>>>> a9a6c2a... Routing
 
 // Start server
 app.listen(8080);
