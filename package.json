@@ -1,0 +1,23 @@
+{
+  "name": "SKS-Website",
+  "version": "1.0.0",
+  "description": "SKS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redliontom/SKS-Website.git"
+  },
+  "keywords": [
+    "SKS",
+    "Abgabe"
+  ],
+  "author": "David Wolf, Tom Schalbar und Christoph Mülllner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redliontom/SKS-Website/issues"
+  },
+  "homepage": "https://github.com/redliontom/SKS-Website"
+}
