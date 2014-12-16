@@ -13,6 +13,12 @@ exports.submitNewPackage = function (data, callback) {
             return callback(error);
         }
 
+        for (var key in client) {
+            if (Object.prototype.toString.call(client[key]) === "[object Function]") {
+                console.log(key);
+            }
+        }
+
         client.SubmitNewPackage(data, function (error, result) {
             callback(error, result);
         });
