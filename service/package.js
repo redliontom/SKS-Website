@@ -8,6 +8,7 @@ var url = "http://blackwolf.azurewebsites.net/PackageService.svc?singleWsdl";
  * @param {Function} callback Get called after finishing or aborting the operation.
  */
 exports.submitNewPackage = function (data, callback) {
+    console.log(data);
     soap.createClient(url, function (error, client) {
         if (error) {
             return callback(error);
