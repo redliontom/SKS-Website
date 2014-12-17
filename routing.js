@@ -69,6 +69,7 @@ module.exports = function (app) {
         })
         .post(multiMiddle, function (request, response) {
             console.log(request.files);
+
             require("./service/warehouse").post(request.files, function (error, result) {
                 delete request.files;
 
