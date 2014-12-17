@@ -1,0 +1,1715 @@
+{
+    "code": "4665",
+    "name": "Main Warehouse",
+    "duration": 20,
+    "connectedWarehouses": [
+        {
+            "code": "8550",
+            "name": "Regional Warehouse 1",
+            "duration": 63,
+            "connectedWarehouses": [
+                {
+                    "code": "8721",
+                    "name": "Region 1 - District Warehouse 1",
+                    "duration": 97,
+                    "trucks": [
+                        {
+                            "numberplate": "3263",
+                            "latitude": 2.97516,
+                            "longitude": 11.54694,
+                            "radius": 2.8,
+                            "duration": 45
+                        },
+                        {
+                            "numberplate": "7190",
+                            "latitude": 13.63958,
+                            "longitude": 6.83358,
+                            "radius": 10.0,
+                            "duration": 24
+                        },
+                        {
+                            "numberplate": "7782",
+                            "latitude": 7.56664,
+                            "longitude": 3.42876,
+                            "radius": 4.4,
+                            "duration": 25
+                        },
+                        {
+                            "numberplate": "8741",
+                            "latitude": 1.97683,
+                            "longitude": 11.84719,
+                            "radius": 7.8,
+                            "duration": 38
+                        },
+                        {
+                            "numberplate": "4702",
+                            "latitude": 9.61399,
+                            "longitude": 0.91691,
+                            "radius": 9.5,
+                            "duration": 16
+                        },
+                        {
+                            "numberplate": "0326",
+                            "latitude": 12.35342,
+                            "longitude": 11.26525,
+                            "radius": 5.2,
+                            "duration": 14
+                        },
+                        {
+                            "numberplate": "3623",
+                            "latitude": 1.684,
+                            "longitude": 8.76705,
+                            "radius": 5.4,
+                            "duration": 24
+                        },
+                        {
+                            "numberplate": "5826",
+                            "latitude": 1.79729,
+                            "longitude": 5.76019,
+                            "radius": 7.5,
+                            "duration": 29
+                        },
+                        {
+                            "numberplate": "9923",
+                            "latitude": 13.94605,
+                            "longitude": 0.43953,
+                            "radius": 2.6,
+                            "duration": 69
+                        }
+                    ]
+                },
+                {
+                    "code": "4864",
+                    "name": "Region 1 - District Warehouse 2",
+                    "duration": 93,
+                    "trucks": [
+                        {
+                            "numberplate": "9014",
+                            "latitude": 0.50978,
+                            "longitude": 0.64321,
+                            "radius": 1.3,
+                            "duration": 84
+                        },
+                        {
+                            "numberplate": "1059",
+                            "latitude": 0.46933,
+                            "longitude": 8.99107,
+                            "radius": 8.3,
+                            "duration": 59
+                        },
+                        {
+                            "numberplate": "3231",
+                            "latitude": 3.10071,
+                            "longitude": 7.8739,
+                            "radius": 6.7,
+                            "duration": 12
+                        },
+                        {
+                            "numberplate": "5263",
+                            "latitude": 1.13556,
+                            "longitude": 7.63553,
+                            "radius": 3.5,
+                            "duration": 32
+                        },
+                        {
+                            "numberplate": "2282",
+                            "latitude": 5.69185,
+                            "longitude": 9.57512,
+                            "radius": 0.1,
+                            "duration": 65
+                        },
+                        {
+                            "numberplate": "5677",
+                            "latitude": 13.14062,
+                            "longitude": 9.566,
+                            "radius": 5.6,
+                            "duration": 95
+                        },
+                        {
+                            "numberplate": "8978",
+                            "latitude": 9.14801,
+                            "longitude": 4.1225,
+                            "radius": 3.8,
+                            "duration": 53
+                        },
+                        {
+                            "numberplate": "7840",
+                            "latitude": 1.22357,
+                            "longitude": 4.32138,
+                            "radius": 7.7,
+                            "duration": 75
+                        },
+                        {
+                            "numberplate": "6502",
+                            "latitude": 8.27957,
+                            "longitude": 3.46538,
+                            "radius": 5.9,
+                            "duration": 60
+                        }
+                    ]
+                },
+                {
+                    "code": "0996",
+                    "name": "Region 1 - District Warehouse 3",
+                    "duration": 19,
+                    "trucks": [
+                        {
+                            "numberplate": "5233",
+                            "latitude": 1.23574,
+                            "longitude": 8.97925,
+                            "radius": 3.3,
+                            "duration": 95
+                        },
+                        {
+                            "numberplate": "2764",
+                            "latitude": 0.23985,
+                            "longitude": 13.68871,
+                            "radius": 1.8,
+                            "duration": 72
+                        },
+                        {
+                            "numberplate": "1722",
+                            "latitude": 1.5812,
+                            "longitude": 3.22802,
+                            "radius": 3.9,
+                            "duration": 88
+                        },
+                        {
+                            "numberplate": "1521",
+                            "latitude": 13.15554,
+                            "longitude": 10.76249,
+                            "radius": 6.9,
+                            "duration": 2
+                        },
+                        {
+                            "numberplate": "3430",
+                            "latitude": 5.05928,
+                            "longitude": 5.61884,
+                            "radius": 0.3,
+                            "duration": 27
+                        },
+                        {
+                            "numberplate": "9518",
+                            "latitude": 0.33721,
+                            "longitude": 4.50186,
+                            "radius": 7.9,
+                            "duration": 42
+                        },
+                        {
+                            "numberplate": "4312",
+                            "latitude": 2.79696,
+                            "longitude": 7.55716,
+                            "radius": 0.8,
+                            "duration": 83
+                        },
+                        {
+                            "numberplate": "4916",
+                            "latitude": 4.36914,
+                            "longitude": 9.87049,
+                            "radius": 6.0,
+                            "duration": 24
+                        },
+                        {
+                            "numberplate": "2614",
+                            "latitude": 7.70916,
+                            "longitude": 0.44451,
+                            "radius": 2.8,
+                            "duration": 42
+                        }
+                    ]
+                },
+                {
+                    "code": "2707",
+                    "name": "Region 1 - District Warehouse 4",
+                    "duration": 20,
+                    "trucks": [
+                        {
+                            "numberplate": "6885",
+                            "latitude": 3.3944,
+                            "longitude": 12.63689,
+                            "radius": 4.1,
+                            "duration": 31
+                        },
+                        {
+                            "numberplate": "4767",
+                            "latitude": 3.68127,
+                            "longitude": 9.67153,
+                            "radius": 4.4,
+                            "duration": 96
+                        },
+                        {
+                            "numberplate": "1822",
+                            "latitude": 2.4898,
+                            "longitude": 4.87146,
+                            "radius": 3.7,
+                            "duration": 16
+                        },
+                        {
+                            "numberplate": "2600",
+                            "latitude": 7.88206,
+                            "longitude": 3.7527,
+                            "radius": 5.6,
+                            "duration": 19
+                        },
+                        {
+                            "numberplate": "1582",
+                            "latitude": 3.87808,
+                            "longitude": 10.57307,
+                            "radius": 4.0,
+                            "duration": 38
+                        },
+                        {
+                            "numberplate": "1117",
+                            "latitude": 7.64301,
+                            "longitude": 9.09556,
+                            "radius": 5.3,
+                            "duration": 48
+                        },
+                        {
+                            "numberplate": "9666",
+                            "latitude": 7.98857,
+                            "longitude": 8.07399,
+                            "radius": 9.9,
+                            "duration": 28
+                        },
+                        {
+                            "numberplate": "5511",
+                            "latitude": 7.24166,
+                            "longitude": 11.91663,
+                            "radius": 0.8,
+                            "duration": 26
+                        },
+                        {
+                            "numberplate": "8730",
+                            "latitude": 2.00663,
+                            "longitude": 9.00389,
+                            "radius": 2.8,
+                            "duration": 90
+                        }
+                    ]
+                },
+                {
+                    "code": "4426",
+                    "name": "Region 1 - District Warehouse 5",
+                    "duration": 53,
+                    "trucks": [
+                        {
+                            "numberplate": "9962",
+                            "latitude": 8.14467,
+                            "longitude": 13.899,
+                            "radius": 3.2,
+                            "duration": 47
+                        },
+                        {
+                            "numberplate": "3294",
+                            "latitude": 8.71614,
+                            "longitude": 1.74351,
+                            "radius": 5.1,
+                            "duration": 13
+                        },
+                        {
+                            "numberplate": "3850",
+                            "latitude": 1.02479,
+                            "longitude": 4.17833,
+                            "radius": 5.3,
+                            "duration": 89
+                        },
+                        {
+                            "numberplate": "5193",
+                            "latitude": 8.92395,
+                            "longitude": 9.81888,
+                            "radius": 2.1,
+                            "duration": 80
+                        },
+                        {
+                            "numberplate": "4101",
+                            "latitude": 7.54667,
+                            "longitude": 8.63052,
+                            "radius": 0.8,
+                            "duration": 5
+                        },
+                        {
+                            "numberplate": "4062",
+                            "latitude": 5.98039,
+                            "longitude": 4.14815,
+                            "radius": 0.1,
+                            "duration": 26
+                        },
+                        {
+                            "numberplate": "7047",
+                            "latitude": 6.14041,
+                            "longitude": 9.90435,
+                            "radius": 8.5,
+                            "duration": 64
+                        },
+                        {
+                            "numberplate": "0545",
+                            "latitude": 6.86788,
+                            "longitude": 12.05232,
+                            "radius": 0.7,
+                            "duration": 83
+                        },
+                        {
+                            "numberplate": "5823",
+                            "latitude": 2.07727,
+                            "longitude": 6.81132,
+                            "radius": 9.5,
+                            "duration": 59
+                        }
+                    ]
+                },
+                {
+                    "code": "9216",
+                    "name": "Region 1 - District Warehouse 6",
+                    "duration": 78,
+                    "trucks": [
+                        {
+                            "numberplate": "5968",
+                            "latitude": 9.29019,
+                            "longitude": 13.10198,
+                            "radius": 8.7,
+                            "duration": 1
+                        },
+                        {
+                            "numberplate": "8607",
+                            "latitude": 12.96489,
+                            "longitude": 11.38801,
+                            "radius": 1.3,
+                            "duration": 78
+                        },
+                        {
+                            "numberplate": "6875",
+                            "latitude": 10.59703,
+                            "longitude": 1.86672,
+                            "radius": 9.5,
+                            "duration": 8
+                        },
+                        {
+                            "numberplate": "9365",
+                            "latitude": 6.94971,
+                            "longitude": 8.96163,
+                            "radius": 8.7,
+                            "duration": 9
+                        },
+                        {
+                            "numberplate": "2916",
+                            "latitude": 9.26642,
+                            "longitude": 7.6348,
+                            "radius": 6.5,
+                            "duration": 71
+                        },
+                        {
+                            "numberplate": "9888",
+                            "latitude": 10.3416,
+                            "longitude": 9.05795,
+                            "radius": 8.6,
+                            "duration": 92
+                        },
+                        {
+                            "numberplate": "4727",
+                            "latitude": 0.69018,
+                            "longitude": 13.07358,
+                            "radius": 0.2,
+                            "duration": 6
+                        },
+                        {
+                            "numberplate": "9828",
+                            "latitude": 4.44124,
+                            "longitude": 8.79425,
+                            "radius": 6.3,
+                            "duration": 64
+                        },
+                        {
+                            "numberplate": "7351",
+                            "latitude": 11.62564,
+                            "longitude": 6.29562,
+                            "radius": 7.8,
+                            "duration": 11
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "8453",
+            "name": "Regional Warehouse 2",
+            "duration": 11,
+            "connectedWarehouses": [
+                {
+                    "code": "3405",
+                    "name": "Region 2 - District Warehouse 1",
+                    "duration": 98,
+                    "trucks": [
+                        {
+                            "numberplate": "6505",
+                            "latitude": 13.86161,
+                            "longitude": 13.3245,
+                            "radius": 2.8,
+                            "duration": 90
+                        },
+                        {
+                            "numberplate": "7101",
+                            "latitude": 2.96273,
+                            "longitude": 1.65539,
+                            "radius": 3.0,
+                            "duration": 22
+                        },
+                        {
+                            "numberplate": "0624",
+                            "latitude": 5.54409,
+                            "longitude": 3.90694,
+                            "radius": 3.4,
+                            "duration": 88
+                        },
+                        {
+                            "numberplate": "5345",
+                            "latitude": 12.64033,
+                            "longitude": 11.52345,
+                            "radius": 9.4,
+                            "duration": 8
+                        },
+                        {
+                            "numberplate": "7256",
+                            "latitude": 7.75906,
+                            "longitude": 12.15547,
+                            "radius": 6.9,
+                            "duration": 99
+                        },
+                        {
+                            "numberplate": "0509",
+                            "latitude": 11.53905,
+                            "longitude": 2.97079,
+                            "radius": 5.8,
+                            "duration": 44
+                        },
+                        {
+                            "numberplate": "6067",
+                            "latitude": 2.22581,
+                            "longitude": 10.53809,
+                            "radius": 6.7,
+                            "duration": 2
+                        },
+                        {
+                            "numberplate": "8476",
+                            "latitude": 1.01988,
+                            "longitude": 2.03481,
+                            "radius": 0.6,
+                            "duration": 52
+                        },
+                        {
+                            "numberplate": "8271",
+                            "latitude": 7.20258,
+                            "longitude": 1.37604,
+                            "radius": 3.4,
+                            "duration": 40
+                        }
+                    ]
+                },
+                {
+                    "code": "6740",
+                    "name": "Region 2 - District Warehouse 2",
+                    "duration": 90,
+                    "trucks": [
+                        {
+                            "numberplate": "5208",
+                            "latitude": 10.13061,
+                            "longitude": 2.26698,
+                            "radius": 9.4,
+                            "duration": 63
+                        },
+                        {
+                            "numberplate": "5275",
+                            "latitude": 6.45242,
+                            "longitude": 13.07985,
+                            "radius": 6.3,
+                            "duration": 72
+                        },
+                        {
+                            "numberplate": "0967",
+                            "latitude": 1.68714,
+                            "longitude": 11.59044,
+                            "radius": 9.5,
+                            "duration": 48
+                        },
+                        {
+                            "numberplate": "9947",
+                            "latitude": 0.56579,
+                            "longitude": 7.79198,
+                            "radius": 6.8,
+                            "duration": 19
+                        },
+                        {
+                            "numberplate": "7895",
+                            "latitude": 3.31818,
+                            "longitude": 9.29128,
+                            "radius": 2.6,
+                            "duration": 86
+                        },
+                        {
+                            "numberplate": "8177",
+                            "latitude": 4.41808,
+                            "longitude": 2.56258,
+                            "radius": 3.0,
+                            "duration": 18
+                        },
+                        {
+                            "numberplate": "1033",
+                            "latitude": 9.83671,
+                            "longitude": 12.2576,
+                            "radius": 4.7,
+                            "duration": 9
+                        },
+                        {
+                            "numberplate": "9250",
+                            "latitude": 3.93108,
+                            "longitude": 7.60237,
+                            "radius": 4.9,
+                            "duration": 39
+                        },
+                        {
+                            "numberplate": "7576",
+                            "latitude": 1.18822,
+                            "longitude": 12.97852,
+                            "radius": 2.9,
+                            "duration": 94
+                        }
+                    ]
+                },
+                {
+                    "code": "0875",
+                    "name": "Region 2 - District Warehouse 3",
+                    "duration": 3,
+                    "trucks": [
+                        {
+                            "numberplate": "2431",
+                            "latitude": 4.79657,
+                            "longitude": 11.74525,
+                            "radius": 2.8,
+                            "duration": 6
+                        },
+                        {
+                            "numberplate": "5817",
+                            "latitude": 3.70463,
+                            "longitude": 3.39366,
+                            "radius": 1.1,
+                            "duration": 70
+                        },
+                        {
+                            "numberplate": "5395",
+                            "latitude": 12.29152,
+                            "longitude": 13.71055,
+                            "radius": 2.9,
+                            "duration": 32
+                        },
+                        {
+                            "numberplate": "5005",
+                            "latitude": 3.73488,
+                            "longitude": 9.13661,
+                            "radius": 7.6,
+                            "duration": 25
+                        },
+                        {
+                            "numberplate": "2046",
+                            "latitude": 8.34119,
+                            "longitude": 7.15175,
+                            "radius": 7.5,
+                            "duration": 40
+                        },
+                        {
+                            "numberplate": "4764",
+                            "latitude": 9.17878,
+                            "longitude": 4.92034,
+                            "radius": 1.6,
+                            "duration": 18
+                        },
+                        {
+                            "numberplate": "7897",
+                            "latitude": 10.4581,
+                            "longitude": 10.25784,
+                            "radius": 7.2,
+                            "duration": 61
+                        },
+                        {
+                            "numberplate": "3002",
+                            "latitude": 4.76219,
+                            "longitude": 5.57277,
+                            "radius": 8.4,
+                            "duration": 63
+                        },
+                        {
+                            "numberplate": "3078",
+                            "latitude": 11.7548,
+                            "longitude": 2.43517,
+                            "radius": 6.1,
+                            "duration": 43
+                        }
+                    ]
+                },
+                {
+                    "code": "8803",
+                    "name": "Region 2 - District Warehouse 4",
+                    "duration": 66,
+                    "trucks": [
+                        {
+                            "numberplate": "7117",
+                            "latitude": 0.19582,
+                            "longitude": 4.61581,
+                            "radius": 2.1,
+                            "duration": 66
+                        },
+                        {
+                            "numberplate": "5913",
+                            "latitude": 10.91813,
+                            "longitude": 13.26974,
+                            "radius": 8.7,
+                            "duration": 68
+                        },
+                        {
+                            "numberplate": "4858",
+                            "latitude": 7.84684,
+                            "longitude": 9.48648,
+                            "radius": 4.4,
+                            "duration": 46
+                        },
+                        {
+                            "numberplate": "2183",
+                            "latitude": 5.5532,
+                            "longitude": 4.71564,
+                            "radius": 0.7,
+                            "duration": 55
+                        },
+                        {
+                            "numberplate": "3073",
+                            "latitude": 3.93971,
+                            "longitude": 6.12384,
+                            "radius": 3.7,
+                            "duration": 42
+                        },
+                        {
+                            "numberplate": "8184",
+                            "latitude": 9.23468,
+                            "longitude": 8.87657,
+                            "radius": 0.3,
+                            "duration": 90
+                        },
+                        {
+                            "numberplate": "7966",
+                            "latitude": 5.71226,
+                            "longitude": 11.65256,
+                            "radius": 0.8,
+                            "duration": 75
+                        },
+                        {
+                            "numberplate": "9758",
+                            "latitude": 11.83483,
+                            "longitude": 9.09602,
+                            "radius": 3.4,
+                            "duration": 44
+                        },
+                        {
+                            "numberplate": "8798",
+                            "latitude": 9.23982,
+                            "longitude": 4.85733,
+                            "radius": 9.5,
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "code": "0633",
+                    "name": "Region 2 - District Warehouse 5",
+                    "duration": 83,
+                    "trucks": [
+                        {
+                            "numberplate": "5429",
+                            "latitude": 9.76869,
+                            "longitude": 10.81178,
+                            "radius": 1.3,
+                            "duration": 77
+                        },
+                        {
+                            "numberplate": "8262",
+                            "latitude": 7.27717,
+                            "longitude": 0.57297,
+                            "radius": 4.4,
+                            "duration": 93
+                        },
+                        {
+                            "numberplate": "1890",
+                            "latitude": 11.08153,
+                            "longitude": 3.66995,
+                            "radius": 9.1,
+                            "duration": 21
+                        },
+                        {
+                            "numberplate": "3124",
+                            "latitude": 3.70377,
+                            "longitude": 10.49392,
+                            "radius": 0.4,
+                            "duration": 4
+                        },
+                        {
+                            "numberplate": "5533",
+                            "latitude": 0.21654,
+                            "longitude": 8.05976,
+                            "radius": 9.3,
+                            "duration": 22
+                        },
+                        {
+                            "numberplate": "7223",
+                            "latitude": 9.40132,
+                            "longitude": 2.69397,
+                            "radius": 9.0,
+                            "duration": 71
+                        },
+                        {
+                            "numberplate": "4100",
+                            "latitude": 7.26705,
+                            "longitude": 0.43618,
+                            "radius": 4.3,
+                            "duration": 8
+                        },
+                        {
+                            "numberplate": "7437",
+                            "latitude": 1.8754,
+                            "longitude": 9.02404,
+                            "radius": 9.4,
+                            "duration": 99
+                        },
+                        {
+                            "numberplate": "7152",
+                            "latitude": 9.96055,
+                            "longitude": 7.13032,
+                            "radius": 3.1,
+                            "duration": 76
+                        }
+                    ]
+                },
+                {
+                    "code": "3758",
+                    "name": "Region 2 - District Warehouse 6",
+                    "duration": 85,
+                    "trucks": [
+                        {
+                            "numberplate": "5574",
+                            "latitude": 11.29815,
+                            "longitude": 8.65726,
+                            "radius": 6.6,
+                            "duration": 9
+                        },
+                        {
+                            "numberplate": "3317",
+                            "latitude": 1.53165,
+                            "longitude": 0.33615,
+                            "radius": 8.6,
+                            "duration": 12
+                        },
+                        {
+                            "numberplate": "0985",
+                            "latitude": 0.4248,
+                            "longitude": 2.6623,
+                            "radius": 5.5,
+                            "duration": 77
+                        },
+                        {
+                            "numberplate": "9463",
+                            "latitude": 13.97199,
+                            "longitude": 2.06933,
+                            "radius": 3.3,
+                            "duration": 40
+                        },
+                        {
+                            "numberplate": "8433",
+                            "latitude": 9.58651,
+                            "longitude": 2.93367,
+                            "radius": 1.9,
+                            "duration": 90
+                        },
+                        {
+                            "numberplate": "5797",
+                            "latitude": 0.94948,
+                            "longitude": 5.81889,
+                            "radius": 7.6,
+                            "duration": 22
+                        },
+                        {
+                            "numberplate": "5553",
+                            "latitude": 4.07894,
+                            "longitude": 12.44268,
+                            "radius": 8.1,
+                            "duration": 73
+                        },
+                        {
+                            "numberplate": "0703",
+                            "latitude": 1.3039,
+                            "longitude": 11.92883,
+                            "radius": 3.9,
+                            "duration": 17
+                        },
+                        {
+                            "numberplate": "9338",
+                            "latitude": 0.73578,
+                            "longitude": 5.7403,
+                            "radius": 9.2,
+                            "duration": 81
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "2532",
+            "name": "Regional Warehouse 3",
+            "duration": 61,
+            "connectedWarehouses": [
+                {
+                    "code": "2020",
+                    "name": "Region 3 - District Warehouse 1",
+                    "duration": 20,
+                    "trucks": [
+                        {
+                            "numberplate": "8663",
+                            "latitude": 7.15834,
+                            "longitude": 8.58321,
+                            "radius": 3.8,
+                            "duration": 53
+                        },
+                        {
+                            "numberplate": "8801",
+                            "latitude": 13.70542,
+                            "longitude": 8.36448,
+                            "radius": 9.9,
+                            "duration": 71
+                        },
+                        {
+                            "numberplate": "1617",
+                            "latitude": 11.08696,
+                            "longitude": 9.71275,
+                            "radius": 5.0,
+                            "duration": 81
+                        },
+                        {
+                            "numberplate": "4981",
+                            "latitude": 3.62465,
+                            "longitude": 1.98211,
+                            "radius": 3.1,
+                            "duration": 46
+                        },
+                        {
+                            "numberplate": "8426",
+                            "latitude": 3.30792,
+                            "longitude": 2.04316,
+                            "radius": 9.4,
+                            "duration": 97
+                        },
+                        {
+                            "numberplate": "6264",
+                            "latitude": 1.86225,
+                            "longitude": 3.84621,
+                            "radius": 8.4,
+                            "duration": 40
+                        },
+                        {
+                            "numberplate": "9155",
+                            "latitude": 13.42489,
+                            "longitude": 12.14589,
+                            "radius": 0.1,
+                            "duration": 43
+                        },
+                        {
+                            "numberplate": "4851",
+                            "latitude": 2.82401,
+                            "longitude": 10.58822,
+                            "radius": 9.9,
+                            "duration": 79
+                        },
+                        {
+                            "numberplate": "6698",
+                            "latitude": 11.03135,
+                            "longitude": 5.35379,
+                            "radius": 0.3,
+                            "duration": 39
+                        }
+                    ]
+                },
+                {
+                    "code": "0275",
+                    "name": "Region 3 - District Warehouse 2",
+                    "duration": 86,
+                    "trucks": [
+                        {
+                            "numberplate": "0518",
+                            "latitude": 11.18759,
+                            "longitude": 7.09724,
+                            "radius": 2.4,
+                            "duration": 33
+                        },
+                        {
+                            "numberplate": "2538",
+                            "latitude": 6.15929,
+                            "longitude": 0.60482,
+                            "radius": 3.4,
+                            "duration": 15
+                        },
+                        {
+                            "numberplate": "2882",
+                            "latitude": 11.1828,
+                            "longitude": 3.62833,
+                            "radius": 6.3,
+                            "duration": 85
+                        },
+                        {
+                            "numberplate": "3379",
+                            "latitude": 5.41476,
+                            "longitude": 6.39334,
+                            "radius": 2.0,
+                            "duration": 54
+                        },
+                        {
+                            "numberplate": "3191",
+                            "latitude": 13.70006,
+                            "longitude": 8.62483,
+                            "radius": 2.6,
+                            "duration": 11
+                        },
+                        {
+                            "numberplate": "5233",
+                            "latitude": 10.08672,
+                            "longitude": 10.24033,
+                            "radius": 3.5,
+                            "duration": 16
+                        },
+                        {
+                            "numberplate": "6847",
+                            "latitude": 4.31759,
+                            "longitude": 12.16429,
+                            "radius": 7.6,
+                            "duration": 61
+                        },
+                        {
+                            "numberplate": "0164",
+                            "latitude": 12.43748,
+                            "longitude": 13.98817,
+                            "radius": 4.8,
+                            "duration": 53
+                        },
+                        {
+                            "numberplate": "5822",
+                            "latitude": 5.42188,
+                            "longitude": 9.60286,
+                            "radius": 4.3,
+                            "duration": 63
+                        }
+                    ]
+                },
+                {
+                    "code": "1008",
+                    "name": "Region 3 - District Warehouse 3",
+                    "duration": 95,
+                    "trucks": [
+                        {
+                            "numberplate": "7861",
+                            "latitude": 4.54475,
+                            "longitude": 8.20159,
+                            "radius": 8.9,
+                            "duration": 99
+                        },
+                        {
+                            "numberplate": "3966",
+                            "latitude": 13.20256,
+                            "longitude": 13.50572,
+                            "radius": 1.3,
+                            "duration": 27
+                        },
+                        {
+                            "numberplate": "6474",
+                            "latitude": 11.51073,
+                            "longitude": 1.70855,
+                            "radius": 4.0,
+                            "duration": 62
+                        },
+                        {
+                            "numberplate": "3764",
+                            "latitude": 4.08669,
+                            "longitude": 8.52701,
+                            "radius": 8.9,
+                            "duration": 33
+                        },
+                        {
+                            "numberplate": "3689",
+                            "latitude": 13.49227,
+                            "longitude": 3.20059,
+                            "radius": 6.5,
+                            "duration": 32
+                        },
+                        {
+                            "numberplate": "4884",
+                            "latitude": 12.89046,
+                            "longitude": 6.95448,
+                            "radius": 9.2,
+                            "duration": 87
+                        },
+                        {
+                            "numberplate": "6338",
+                            "latitude": 7.54296,
+                            "longitude": 7.63101,
+                            "radius": 9.9,
+                            "duration": 82
+                        },
+                        {
+                            "numberplate": "5044",
+                            "latitude": 7.95444,
+                            "longitude": 12.01509,
+                            "radius": 4.1,
+                            "duration": 82
+                        },
+                        {
+                            "numberplate": "6169",
+                            "latitude": 9.04331,
+                            "longitude": 8.77823,
+                            "radius": 9.3,
+                            "duration": 29
+                        }
+                    ]
+                },
+                {
+                    "code": "3829",
+                    "name": "Region 3 - District Warehouse 4",
+                    "duration": 18,
+                    "trucks": [
+                        {
+                            "numberplate": "6994",
+                            "latitude": 10.06764,
+                            "longitude": 6.97309,
+                            "radius": 1.0,
+                            "duration": 40
+                        },
+                        {
+                            "numberplate": "1836",
+                            "latitude": 0.38691,
+                            "longitude": 12.36591,
+                            "radius": 2.4,
+                            "duration": 92
+                        },
+                        {
+                            "numberplate": "8640",
+                            "latitude": 8.51244,
+                            "longitude": 0.13168,
+                            "radius": 2.7,
+                            "duration": 21
+                        },
+                        {
+                            "numberplate": "0165",
+                            "latitude": 13.59479,
+                            "longitude": 2.75062,
+                            "radius": 0.9,
+                            "duration": 86
+                        },
+                        {
+                            "numberplate": "4940",
+                            "latitude": 10.98072,
+                            "longitude": 4.22338,
+                            "radius": 3.0,
+                            "duration": 32
+                        },
+                        {
+                            "numberplate": "9031",
+                            "latitude": 2.05633,
+                            "longitude": 0.05679,
+                            "radius": 7.9,
+                            "duration": 1
+                        },
+                        {
+                            "numberplate": "0304",
+                            "latitude": 11.57433,
+                            "longitude": 2.94915,
+                            "radius": 9.4,
+                            "duration": 51
+                        },
+                        {
+                            "numberplate": "2678",
+                            "latitude": 5.29107,
+                            "longitude": 12.58102,
+                            "radius": 7.8,
+                            "duration": 96
+                        },
+                        {
+                            "numberplate": "6870",
+                            "latitude": 13.09747,
+                            "longitude": 12.75311,
+                            "radius": 5.2,
+                            "duration": 31
+                        }
+                    ]
+                },
+                {
+                    "code": "6646",
+                    "name": "Region 3 - District Warehouse 5",
+                    "duration": 25,
+                    "trucks": [
+                        {
+                            "numberplate": "3251",
+                            "latitude": 6.71364,
+                            "longitude": 7.80176,
+                            "radius": 9.7,
+                            "duration": 65
+                        },
+                        {
+                            "numberplate": "8647",
+                            "latitude": 12.59772,
+                            "longitude": 1.50964,
+                            "radius": 6.2,
+                            "duration": 22
+                        },
+                        {
+                            "numberplate": "7569",
+                            "latitude": 13.44457,
+                            "longitude": 3.28518,
+                            "radius": 1.8,
+                            "duration": 10
+                        },
+                        {
+                            "numberplate": "2122",
+                            "latitude": 8.20662,
+                            "longitude": 2.23943,
+                            "radius": 8.8,
+                            "duration": 45
+                        },
+                        {
+                            "numberplate": "5763",
+                            "latitude": 4.0505,
+                            "longitude": 9.36124,
+                            "radius": 5.0,
+                            "duration": 71
+                        },
+                        {
+                            "numberplate": "6517",
+                            "latitude": 7.89669,
+                            "longitude": 10.63562,
+                            "radius": 2.3,
+                            "duration": 37
+                        },
+                        {
+                            "numberplate": "8605",
+                            "latitude": 0.34922,
+                            "longitude": 2.56895,
+                            "radius": 9.9,
+                            "duration": 97
+                        },
+                        {
+                            "numberplate": "5767",
+                            "latitude": 6.23422,
+                            "longitude": 9.53061,
+                            "radius": 5.2,
+                            "duration": 84
+                        },
+                        {
+                            "numberplate": "8211",
+                            "latitude": 5.66552,
+                            "longitude": 9.81285,
+                            "radius": 3.1,
+                            "duration": 36
+                        }
+                    ]
+                },
+                {
+                    "code": "8079",
+                    "name": "Region 3 - District Warehouse 6",
+                    "duration": 93,
+                    "trucks": [
+                        {
+                            "numberplate": "5835",
+                            "latitude": 6.91398,
+                            "longitude": 0.76754,
+                            "radius": 2.1,
+                            "duration": 33
+                        },
+                        {
+                            "numberplate": "3576",
+                            "latitude": 11.93936,
+                            "longitude": 4.43831,
+                            "radius": 8.5,
+                            "duration": 68
+                        },
+                        {
+                            "numberplate": "2978",
+                            "latitude": 8.16967,
+                            "longitude": 12.12106,
+                            "radius": 8.5,
+                            "duration": 6
+                        },
+                        {
+                            "numberplate": "2613",
+                            "latitude": 4.82083,
+                            "longitude": 5.97231,
+                            "radius": 7.4,
+                            "duration": 16
+                        },
+                        {
+                            "numberplate": "9913",
+                            "latitude": 12.85397,
+                            "longitude": 6.98697,
+                            "radius": 2.6,
+                            "duration": 44
+                        },
+                        {
+                            "numberplate": "1487",
+                            "latitude": 3.40202,
+                            "longitude": 1.21186,
+                            "radius": 3.2,
+                            "duration": 10
+                        },
+                        {
+                            "numberplate": "2955",
+                            "latitude": 7.13815,
+                            "longitude": 1.87731,
+                            "radius": 3.1,
+                            "duration": 50
+                        },
+                        {
+                            "numberplate": "2294",
+                            "latitude": 4.38017,
+                            "longitude": 7.68112,
+                            "radius": 2.7,
+                            "duration": 84
+                        },
+                        {
+                            "numberplate": "5679",
+                            "latitude": 9.16736,
+                            "longitude": 6.89973,
+                            "radius": 3.3,
+                            "duration": 71
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "3889",
+            "name": "Regional Warehouse 4",
+            "duration": 10,
+            "connectedWarehouses": [
+                {
+                    "code": "7674",
+                    "name": "Region 4 - District Warehouse 1",
+                    "duration": 15,
+                    "trucks": [
+                        {
+                            "numberplate": "5359",
+                            "latitude": 4.99202,
+                            "longitude": 13.07028,
+                            "radius": 6.6,
+                            "duration": 5
+                        },
+                        {
+                            "numberplate": "4533",
+                            "latitude": 4.01915,
+                            "longitude": 13.927,
+                            "radius": 4.7,
+                            "duration": 62
+                        },
+                        {
+                            "numberplate": "7738",
+                            "latitude": 8.50814,
+                            "longitude": 10.7275,
+                            "radius": 8.3,
+                            "duration": 23
+                        },
+                        {
+                            "numberplate": "8456",
+                            "latitude": 4.71313,
+                            "longitude": 6.29235,
+                            "radius": 5.0,
+                            "duration": 37
+                        },
+                        {
+                            "numberplate": "3135",
+                            "latitude": 5.98177,
+                            "longitude": 11.13971,
+                            "radius": 8.7,
+                            "duration": 59
+                        },
+                        {
+                            "numberplate": "8009",
+                            "latitude": 8.51215,
+                            "longitude": 5.95424,
+                            "radius": 4.5,
+                            "duration": 78
+                        },
+                        {
+                            "numberplate": "5295",
+                            "latitude": 4.8415,
+                            "longitude": 1.41374,
+                            "radius": 8.1,
+                            "duration": 91
+                        },
+                        {
+                            "numberplate": "8490",
+                            "latitude": 5.24838,
+                            "longitude": 6.45534,
+                            "radius": 2.3,
+                            "duration": 97
+                        },
+                        {
+                            "numberplate": "2707",
+                            "latitude": 3.79464,
+                            "longitude": 9.70833,
+                            "radius": 0.7,
+                            "duration": 13
+                        }
+                    ]
+                },
+                {
+                    "code": "0822",
+                    "name": "Region 4 - District Warehouse 2",
+                    "duration": 57,
+                    "trucks": [
+                        {
+                            "numberplate": "0798",
+                            "latitude": 5.58434,
+                            "longitude": 2.95701,
+                            "radius": 4.3,
+                            "duration": 26
+                        },
+                        {
+                            "numberplate": "8297",
+                            "latitude": 6.16716,
+                            "longitude": 4.14886,
+                            "radius": 6.1,
+                            "duration": 24
+                        },
+                        {
+                            "numberplate": "0478",
+                            "latitude": 0.99235,
+                            "longitude": 10.01481,
+                            "radius": 3.5,
+                            "duration": 86
+                        },
+                        {
+                            "numberplate": "7559",
+                            "latitude": 10.95908,
+                            "longitude": 8.5554,
+                            "radius": 2.1,
+                            "duration": 49
+                        },
+                        {
+                            "numberplate": "5606",
+                            "latitude": 11.15989,
+                            "longitude": 12.06977,
+                            "radius": 8.5,
+                            "duration": 13
+                        },
+                        {
+                            "numberplate": "8799",
+                            "latitude": 4.71701,
+                            "longitude": 8.81669,
+                            "radius": 4.8,
+                            "duration": 60
+                        },
+                        {
+                            "numberplate": "6042",
+                            "latitude": 8.08446,
+                            "longitude": 5.75955,
+                            "radius": 6.7,
+                            "duration": 88
+                        },
+                        {
+                            "numberplate": "6020",
+                            "latitude": 8.03921,
+                            "longitude": 8.04294,
+                            "radius": 0.3,
+                            "duration": 16
+                        },
+                        {
+                            "numberplate": "6478",
+                            "latitude": 8.67369,
+                            "longitude": 2.6656,
+                            "radius": 6.6,
+                            "duration": 67
+                        }
+                    ]
+                },
+                {
+                    "code": "2510",
+                    "name": "Region 4 - District Warehouse 3",
+                    "duration": 39,
+                    "trucks": [
+                        {
+                            "numberplate": "3153",
+                            "latitude": 2.93951,
+                            "longitude": 0.86385,
+                            "radius": 1.7,
+                            "duration": 91
+                        },
+                        {
+                            "numberplate": "6640",
+                            "latitude": 0.83652,
+                            "longitude": 9.99713,
+                            "radius": 5.2,
+                            "duration": 63
+                        },
+                        {
+                            "numberplate": "8307",
+                            "latitude": 5.41203,
+                            "longitude": 2.39271,
+                            "radius": 0.8,
+                            "duration": 27
+                        },
+                        {
+                            "numberplate": "2966",
+                            "latitude": 7.04838,
+                            "longitude": 12.52325,
+                            "radius": 6.9,
+                            "duration": 77
+                        },
+                        {
+                            "numberplate": "9353",
+                            "latitude": 9.55752,
+                            "longitude": 11.69501,
+                            "radius": 8.3,
+                            "duration": 63
+                        },
+                        {
+                            "numberplate": "8746",
+                            "latitude": 10.44935,
+                            "longitude": 11.84782,
+                            "radius": 4.5,
+                            "duration": 23
+                        },
+                        {
+                            "numberplate": "4605",
+                            "latitude": 1.39491,
+                            "longitude": 6.7948,
+                            "radius": 1.9,
+                            "duration": 22
+                        },
+                        {
+                            "numberplate": "5077",
+                            "latitude": 7.58197,
+                            "longitude": 11.52418,
+                            "radius": 4.2,
+                            "duration": 15
+                        },
+                        {
+                            "numberplate": "4803",
+                            "latitude": 2.34681,
+                            "longitude": 7.63193,
+                            "radius": 3.5,
+                            "duration": 49
+                        }
+                    ]
+                },
+                {
+                    "code": "4148",
+                    "name": "Region 4 - District Warehouse 4",
+                    "duration": 19,
+                    "trucks": [
+                        {
+                            "numberplate": "9058",
+                            "latitude": 11.89611,
+                            "longitude": 12.97066,
+                            "radius": 4.7,
+                            "duration": 69
+                        },
+                        {
+                            "numberplate": "9878",
+                            "latitude": 10.23019,
+                            "longitude": 5.9308,
+                            "radius": 2.6,
+                            "duration": 49
+                        },
+                        {
+                            "numberplate": "3714",
+                            "latitude": 9.83312,
+                            "longitude": 0.94633,
+                            "radius": 4.3,
+                            "duration": 77
+                        },
+                        {
+                            "numberplate": "9212",
+                            "latitude": 0.36588,
+                            "longitude": 4.83812,
+                            "radius": 4.8,
+                            "duration": 98
+                        },
+                        {
+                            "numberplate": "1109",
+                            "latitude": 1.4378,
+                            "longitude": 5.4733,
+                            "radius": 9.5,
+                            "duration": 15
+                        },
+                        {
+                            "numberplate": "1226",
+                            "latitude": 10.02632,
+                            "longitude": 4.30977,
+                            "radius": 7.5,
+                            "duration": 66
+                        },
+                        {
+                            "numberplate": "2378",
+                            "latitude": 2.02402,
+                            "longitude": 0.28523,
+                            "radius": 3.5,
+                            "duration": 46
+                        },
+                        {
+                            "numberplate": "5015",
+                            "latitude": 4.26061,
+                            "longitude": 12.87707,
+                            "radius": 10.0,
+                            "duration": 42
+                        },
+                        {
+                            "numberplate": "5714",
+                            "latitude": 11.1434,
+                            "longitude": 9.53144,
+                            "radius": 7.5,
+                            "duration": 5
+                        }
+                    ]
+                },
+                {
+                    "code": "0347",
+                    "name": "Region 4 - District Warehouse 5",
+                    "duration": 12,
+                    "trucks": [
+                        {
+                            "numberplate": "7247",
+                            "latitude": 1.93433,
+                            "longitude": 9.58095,
+                            "radius": 2.8,
+                            "duration": 52
+                        },
+                        {
+                            "numberplate": "2967",
+                            "latitude": 4.01369,
+                            "longitude": 0.53526,
+                            "radius": 5.1,
+                            "duration": 37
+                        },
+                        {
+                            "numberplate": "1289",
+                            "latitude": 0.09301,
+                            "longitude": 0.42063,
+                            "radius": 7.7,
+                            "duration": 54
+                        },
+                        {
+                            "numberplate": "8059",
+                            "latitude": 4.88843,
+                            "longitude": 0.40482,
+                            "radius": 7.6,
+                            "duration": 28
+                        },
+                        {
+                            "numberplate": "1378",
+                            "latitude": 6.99657,
+                            "longitude": 3.03699,
+                            "radius": 6.1,
+                            "duration": 18
+                        },
+                        {
+                            "numberplate": "9570",
+                            "latitude": 1.99881,
+                            "longitude": 2.0526,
+                            "radius": 9.3,
+                            "duration": 16
+                        },
+                        {
+                            "numberplate": "7969",
+                            "latitude": 0.51136,
+                            "longitude": 7.83314,
+                            "radius": 3.5,
+                            "duration": 66
+                        },
+                        {
+                            "numberplate": "9645",
+                            "latitude": 13.74311,
+                            "longitude": 8.65954,
+                            "radius": 1.7,
+                            "duration": 20
+                        },
+                        {
+                            "numberplate": "7427",
+                            "latitude": 5.91989,
+                            "longitude": 12.77124,
+                            "radius": 7.3,
+                            "duration": 54
+                        }
+                    ]
+                },
+                {
+                    "code": "7641",
+                    "name": "Region 4 - District Warehouse 6",
+                    "duration": 91,
+                    "trucks": [
+                        {
+                            "numberplate": "4622",
+                            "latitude": 4.6442,
+                            "longitude": 0.53665,
+                            "radius": 3.0,
+                            "duration": 33
+                        },
+                        {
+                            "numberplate": "1464",
+                            "latitude": 6.14317,
+                            "longitude": 6.63629,
+                            "radius": 8.3,
+                            "duration": 77
+                        },
+                        {
+                            "numberplate": "2910",
+                            "latitude": 5.77725,
+                            "longitude": 2.98547,
+                            "radius": 5.1,
+                            "duration": 37
+                        },
+                        {
+                            "numberplate": "2606",
+                            "latitude": 13.2138,
+                            "longitude": 1.58219,
+                            "radius": 8.8,
+                            "duration": 74
+                        },
+                        {
+                            "numberplate": "0241",
+                            "latitude": 1.42353,
+                            "longitude": 3.54498,
+                            "radius": 3.6,
+                            "duration": 77
+                        },
+                        {
+                            "numberplate": "5756",
+                            "latitude": 9.01504,
+                            "longitude": 13.27635,
+                            "radius": 8.3,
+                            "duration": 19
+                        },
+                        {
+                            "numberplate": "2876",
+                            "latitude": 9.09423,
+                            "longitude": 2.70474,
+                            "radius": 6.8,
+                            "duration": 55
+                        },
+                        {
+                            "numberplate": "5930",
+                            "latitude": 1.63845,
+                            "longitude": 1.26335,
+                            "radius": 8.1,
+                            "duration": 33
+                        },
+                        {
+                            "numberplate": "8320",
+                            "latitude": 48.200775,
+                            "longitude": 16.399649,
+                            "radius": 2000,
+                            "duration": 25
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -6,7 +6,10 @@ var options = {
     hostname: url,
     port: 80,
     path: "/WarehouseService.svc/",
-    method: "POST"
+    method: "POST",
+    headers: {
+        "content-type": "application/json"
+    }
 };
 
 exports.post = function (data, callback) {
