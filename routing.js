@@ -67,13 +67,7 @@ module.exports = function (app) {
             response.sendStatus(405);
         })
         .post(multiMiddle, function (request, response) {
-<<<<<<< HEAD
-            console.log(request.files);
-
-            require("./service/warehouse").post(request.files, function (error, result) {
-=======
             require("./service/warehouse").post(request.files.Warehouse, function (error, result) {
->>>>>>> fb78e5f... upload
                 delete request.files;
 
                 if (error) {
