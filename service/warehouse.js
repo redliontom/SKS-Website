@@ -1,22 +1,26 @@
 var http = require("http");
-var url = "http://blackwolf.azurewebsites.net/WarehouseService.svc";
+var fs = require("fs");
+var url = "blackwolf.azurewebsites.net";
 
 var options = {
     hostname: url,
     port: 80,
-    path: "/",
+    path: "/WarehouseService.svc/",
     method: "POST"
 };
 
 exports.post = function (data, callback) {
-    var request = http.request(function (response) {
-        callback(response.statusCode);
-    });
+    fs.readFile(data.path, function (error, buffer) {
+        fs.unlinkSync(data.path);
+        var request = http.request(options, function (response) {
+            callback(null, response.statusCode);
+        });
 
-    request.on("error", function (error) {
-        callback(error);
-    });
+        request.on("error", function (error) {
+            callback(error);
+        });
 
-    request.write(data);
-    request.end();
+        request.write(buffer);
+        request.end();
+    });
 };
