@@ -14,7 +14,7 @@ exports.submitNewPackage = function (data, callback) {
     var proxy = new Proxy(binding, url);
     var message = "";
 
-    proxy.send(message, url + "/SubmitNewPackage", function (response, context) {
+    proxy.send(message, "/SubmitNewPackage", function (response, context) {
         console.log(response);
         callback(new Error("not implemented"));
     });
