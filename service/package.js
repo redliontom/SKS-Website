@@ -1,5 +1,5 @@
-var soap = require("soap");
-var url = "http://blackwolf.azurewebsites.net/PackageService.svc?singleWsdl";
+var wcf = require("wcf.js");
+var url = "http://blackwolf.azurewebsites.net/PackageService.svc";
 
 /**
  * Sends client data to the webservice.
@@ -8,12 +8,14 @@ var url = "http://blackwolf.azurewebsites.net/PackageService.svc?singleWsdl";
  * @param {Function} callback Get called after finishing or aborting the operation.
  */
 exports.submitNewPackage = function (data, callback) {
-    console.log(data);
-    soap.createClient(url, function (error, client) {
-        if (error) return callback(error);
+    var BasicHttpBinding = wcf.BasicHttpBinding;
+    var Proxy = wcf.Proxy;
+    var binding = new BasicHttpBinding();
+    var proxy = new Proxy(binding, url);
+    var message = "";
 
-        client.SubmitNewPackage(data, function (error, result) {
-            callback(error, result);
-        });
+    proxy.send(message, url + "/SubmitNewPackage", function (response, context) {
+        console.log(response);
+        callback(new Error("not implemented"));
     });
 };

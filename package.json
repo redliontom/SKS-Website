@@ -25,6 +25,7 @@
     "connect-multiparty": "^1.2.5",
     "express": "^4.10.6",
     "multiparty": "^4.1.0",
-    "soap": "^0.6.0"
+    "soap": "^0.6.0",
+    "wcf.js": "0.0.6"
   }
 }
