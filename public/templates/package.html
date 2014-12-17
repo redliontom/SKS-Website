@@ -31,6 +31,12 @@
     <span ng-show="frmPackage.City.$error.required && frmPackage.City.$dirty">City is required.</span>
     <br />
 
+    <input id="country" name="Country" type="text" placeholder="Country" ng-model="country" ng-minlength="3" ng-maxlength="32" required />
+    <span ng-show="frmPackage.City.$error.minlength">Country is too short.</span>
+    <span ng-show="frmPackage.City.$error.maxlength">Country is too long.</span>
+    <span ng-show="frmPackage.City.$error.required && frmPackage.City.$dirty">Country is required.</span>
+    <br />
+
     <input id="weight" name="Weight" type="number" placeholder="Weight" ng-model="weight" ng-minlength="1" ng-maxlength="8" required />
     <span ng-show="frmPackage.Weight.$error.minlength">Weight is too short.</span>
     <span ng-show="frmPackage.Weight.$error.maxlength">Weight is too long.</span>
