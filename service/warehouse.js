@@ -15,9 +15,7 @@ exports.post = function (data, callback) {
     fs.readFile(data.path, function (error, buffer) {
         fs.unlinkSync(data.path);
 
-        if (error) {
-            return callback(error);
-        }
+        if (error) return callback(error);
 
         var request = http.request(options, function (response) {
             callback(null, response.statusCode);

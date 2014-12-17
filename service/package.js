@@ -10,9 +10,7 @@ var url = "http://blackwolf.azurewebsites.net/PackageService.svc?singleWsdl";
 exports.submitNewPackage = function (data, callback) {
     console.log(data);
     soap.createClient(url, function (error, client) {
-        if (error) {
-            return callback(error);
-        }
+        if (error) return callback(error);
 
         client.SubmitNewPackage(data, function (error, result) {
             callback(error, result);

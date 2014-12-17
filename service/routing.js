@@ -3,9 +3,7 @@ var url = "http://blackwolf.azurewebsites.net/RoutingService.svc?singleWsdl";
 
 exports.predictRoute = function (data, callback) {
     soap.createClient(url, function (error, client) {
-        if (error) {
-            return callback(error);
-        }
+        if (error) return callback(error);
 
         client.PredictRoute(data, function (error, result) {
             callback(error, result);
